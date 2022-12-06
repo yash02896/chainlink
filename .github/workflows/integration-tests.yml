@@ -85,7 +85,7 @@ jobs:
           repository: smartcontractkit/chainlink-solana
           ref: ${{ env.solana_sha }}
       - name: Build contracts
-        uses: smartcontractkit/chainlink-solana/.github/actions/build_contract_artifacts@691e86b1e3b27e6b90830661499a5c372224fea1 # stable action on 18/07/2022
+        uses: smartcontractkit/chainlink-solana/.github/actions/build_contract_artifacts@d1edf3cf4aac36ca5b5d332d4157720696b2ad04 # stable action on 18/07/2022
         with:
           ref: ${{ env.solana_sha }}
 
